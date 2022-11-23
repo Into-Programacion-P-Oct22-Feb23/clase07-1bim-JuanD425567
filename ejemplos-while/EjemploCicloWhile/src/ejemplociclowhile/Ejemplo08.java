@@ -28,9 +28,9 @@ public class Ejemplo08 {
         double promedio_final;
         double calificacion;
         boolean bandera = true;
-
+        
         System.out.println("Ingrese las notas de los estudiantes de su materia");
-        while (bandera) {
+        while (bandera==true) {
             System.out.println("Ingrese calificación:");
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;

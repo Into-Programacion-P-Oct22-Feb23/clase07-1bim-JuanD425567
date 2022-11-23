@@ -32,7 +32,9 @@ public class Ejemplo06 {
         while (bandera) {
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
-
+            //El if de aqui delimita la cantidad maxima a sumar es decir
+            //un numero superior a 20 sera tomado como 20 sin importar la cantidad
+           
             if (calificacion > 20) {
                 calificacion = 20;
             }
